@@ -1,0 +1,28 @@
+{
+    "authentication": 
+    {
+        "cookie": "",
+        "userid": 1,
+        "key": ""
+    },
+    "valuation":
+    {
+        "undervalue_under_raprequirement": {
+            "owned": false,
+            "request": true
+        },
+        "overvalue_over_raprequirement": {
+            "owned": true,
+            "request": false
+        }
+    },
+    "custom_values":
+    {
+        "overwrite_values": {
+            "use_vanilla_valutation": true,
+            "value_directory": "values.json"
+        },
+        "custom_offer_values": [""],
+        "custom_request_values": [""]
+    }
+}
